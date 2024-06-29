@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#iban-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+#form-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#iban-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+#iban-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#iban-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#iban-form button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result p {
+  margin: 5px 0;
+}
