@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Extraer enlaces a imágenes</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
-    </div>
+    <h1>Extraer enlaces a imágenes</h1>
+    <form id="form">
+      <textarea id="html-content" rows="10" cols="50"></textarea>
+      <button id="extract-button" type="submit">Extraer</button>
+    </form>
+    <div id="image-links"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
